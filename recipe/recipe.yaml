@@ -1,5 +1,5 @@
 context:
-  version: "0.0.101"
+  version: "0.0.102"
 
 package:
   name: crosshair
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/c/crosshair_tool/crosshair_tool-${{ version }}.tar.gz
-  sha256: c36eb18e211b344b47dc9aaf85d0b16ae4cb00719d20f131eb6ebf5e79767983
+  sha256: 665aed0492618d9ae61a7f17d5d32ea2a7182c04d5a39ae81b5e3e519a7869ba
 
 build:
   script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
@@ -15,7 +15,7 @@ build:
     entry_points:
       - crosshair=crosshair.main:main
       - mypycrosshair=crosshair.main:mypy_and_check
-  number: 1
+  number: 0
 
 requirements:
   build:
