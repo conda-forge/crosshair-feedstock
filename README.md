@@ -265,4 +265,5 @@ Feedstock Maintainers
 =====================
 
 * [@kratsg](https://github.com/kratsg/)
+* [@pschanely](https://github.com/pschanely/)
 
