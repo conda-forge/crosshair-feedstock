@@ -15,7 +15,7 @@ build:
     entry_points:
       - crosshair=crosshair.main:main
       - mypycrosshair=crosshair.main:mypy_and_check
-  number: 0
+  number: 1
 
 requirements:
   build:
