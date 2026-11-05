@@ -1,5 +1,5 @@
 context:
-  version: "0.0.111"
+  version: "0.0.113"
 
 package:
   name: crosshair
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/c/crosshair_tool/crosshair_tool-${{ version }}.tar.gz
-  sha256: 905dbaf2c24308696bf295375a5de6b3b1c77943d5870dcb581c47bd43750771
+  sha256: cb47634f37b80270850e6799a1159b2cc46fb9cee3842626285a8d42d2d9f3ba
 
 build:
   script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
